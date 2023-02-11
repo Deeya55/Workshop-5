@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(#a098bc,#d79eb6);
+        min-height: 100vh;
+    }
+    h1{
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fffffff5;
+        padding-left: 35%;
+        margin-top: 7%;
+    }
+    p1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 50%;
+        font-size: 30px;
+        color: #ffffff;
+        margin-right: 150px;
+        margin-top: 80px;
+        float: right;
+    }
+    img{
+    border: #ffffff;
+    height: 400px;;
+    width: auto;
+    border-radius: 400px;
+    margin-left: 200px;
+
+    }
+    .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+    }
+    header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+header ul li a:hover{
+  background: #ffffff;
+  color: #a098bc;
+}
+@media screen and (max-width:480px){
+  body{
+    min-height: 100vh;
+    background: linear-gradient(#a098bc,#d79eb6);
+  }
+  header{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 3px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  header .logo{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -90px;
+  }
+  header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li{
+    list-style: none;
+    margin-top: 10%;
+    margin-left: 10px;
+  }
+  header ul li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  header ul li a:hover{
+    background: #ffffff;
+    color: #a098bc;
+  }
+.footer {
+    margin-left: 30%;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+  }   
+}
+</style>
+<body>
+    <header>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </header>
+    <h1>Get to know more about me!</h1>
+    <p1>My name is Deeya Bastola. I am 19 years old.
+         Currently, I am a 1st semester student at
+        Herald College Kathmandu and I am enrolled 
+        as a computer science student. I love exploring
+        and learning about new things. </p1>
+    <img src="Deeya.jpg" alt="me">
+    <div class="footer">
+        DEEYA||&copy;2023|All rights reserved.
+      </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<style>
+  .color-change{
+      background: linear-gradient(#b19ed7,#d79ec7);
+      color:rgb(255, 255, 255);
+  }
+</style>
+<body>
+  <header>
+    <a href="#" class="logo">DEEYA</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <div class="pic1">
+            <img src="pic1.jpg">
+    </div>
+    <div class="pic2">
+        <img src="pic2.jpg">
+</div>
+<div class="pic3">
+    <img src="pic3.jpg">
+</div>
+</div>
+<div class="footer">
+  DEEYA||&copy;2023|All rights reserved.
+</div>
+<button onclick="theme()">❀</button>
+<script>
+  function theme(){
+  var element = document.body;
+  element.classList.toggle("color-change");
+}
+</script>
+
+</body>
+</html>-

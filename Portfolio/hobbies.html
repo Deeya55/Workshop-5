@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <style>
+        body{
+            min-height: 100vh;
+            background: linear-gradient(#a098bc,#d79eb6); 
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            text-align: center;
+            padding: 50px;
+            margin-top: 30px;
+        }
+        .container1{
+            padding-left: 170px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+            column-gap: 10px;
+            row-gap: 5px;
+        }
+        p{
+            color: #ffffff;
+            text-align: center;
+
+        }
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+     object-position: center;
+}
+li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 10px;
+    align-items: center;
+    list-style: none;
+    margin-left: 18%;
+    padding: 6px 2px;
+    color: #ffffff;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    text-align: center;
+  }
+  header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+header ul li a:hover{
+  background: #ffffff;
+  color: #a098bc;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </header>
+    <h1>I have many hobbies and interests that keeps me occupied.</h1>
+    <p>-Some of it are given below-</p>
+    <div class="container1">
+        <img src="hob1.jpg">
+        <img src="hob2.jpg">
+        <img src="hob3.jpg">
+     </div>
+     <div>
+        <ul>
+        <li>Crocheting</li>
+        <li>Reading Books</li>
+        <li>Painting</li>
+        </ul>
+     </div>
+     <div class="footer">
+        DEEYA||&copy;2023|All rights reserved.
+      </div>
+</body>
+</html>
