@@ -24,10 +24,12 @@
 
 p1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
+    color: #ffffff;
 
 }
 header{
@@ -87,6 +89,73 @@ header ul li a{
 header ul li a:hover{
   background: #ffffff;
   color: #a098bc;
+}
+
+@media screen and (max-width:480px){
+  body{
+    min-height: 100vh;
+    background: linear-gradient(#a098bc,#d79eb6);
+  }
+  header{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 3px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  header .logo{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -90px;
+  }
+  header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header ul li{
+    list-style: none;
+    margin-top: 10%;
+    margin-left: 10px;
+  }
+  header ul li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: #ffffff;
+    border-radius: 20px;
+  }
+  header ul li a:hover{
+    background: #ffffff;
+    color: #a098bc;
+  }
+  h1{
+    font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #fffffff5;
+        padding-left: 5%;
+        margin-top: 22%;
+  }
+  p{
+    margin-top: -25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  p1{
+    margin-top: -15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+  }
+  img{
+    width: 600px;
+  }
 }
     </style>
 </head>
